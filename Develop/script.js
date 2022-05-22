@@ -100,13 +100,11 @@ viewSchedule = () => {
 
 // construction of the planner
 myPlans.forEach(function(thisTime) {
-    //rows for the planner
     var hrRow = $("<form>").attr({
         "class": "row"
     });
     $(".container").append(hrRow);
 
-    // A place to input text into the planner
     var hourPlace = $("<div>")
         .text(`${thisTime.hour}${thisTime.meridiem}`)
         .attr({
@@ -156,5 +154,6 @@ $(".saveBtn").on("click", function(event) {
     myPlans[savePlanner].notes = $(this).siblings(".description").children(".future").val();
     
     saveSchedule();
+    
     displaySchedule();
 })

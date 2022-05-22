@@ -15,7 +15,7 @@ The project was initialized to create a work day planner application. The applic
 
 ## Setup
 To run the project, click the link below:
-
+https://jennifer-esman.github.io/Work-Day-Scheduler/
 
 
 ## Screenshots and Multimedia
